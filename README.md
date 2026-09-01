@@ -31,7 +31,7 @@ solution=np.linalg.matrix_rank(a)
 print(solution)
 ```
 ## Output:
-<img width="1048" height="700" alt="image" src="https://github.com/user-attachments/assets/53665822-00db-4a42-a05b-afbfc68f989d" />
+<img width="897" height="825" alt="image" src="https://github.com/user-attachments/assets/c46ff989-56f3-4695-b6df-e66261f61082" />
 
 ## Result:
 Thus the rank for the given matrix is successfully solved by  using a python program.
