@@ -16,20 +16,21 @@ Using the np.linalg.matrix_rank(), we can find the rank of the given matrix.
 
 ## Step 4:
 End the program
+
 ## Program:
 # Linear Algebra Exp 2
 ```
 Write a program to find the rank for the given matrix 
 [[5,-3,-10],[2,2,-3],[-3,-1,5]]
 ```
-```
+~~~python
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
 import numpy as np
 a=np.array( [[5,-3,-10],[2,2,-3],[-3,-1,5]])
 solution=np.linalg.matrix_rank(a)
 print(solution)
-```
+~~~
 ## Output:
 <img width="897" height="825" alt="image" src="https://github.com/user-attachments/assets/c46ff989-56f3-4695-b6df-e66261f61082" />
 
